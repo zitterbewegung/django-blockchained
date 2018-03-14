@@ -4,5 +4,6 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('<int:qblock_id>/', views.detail, name='detail'),
+    path('calculate_pi', views.calculate_pi, name='calculate_pi')
+    #path('<int:qblock_id>/', views.detail, name='detail'),
 ]

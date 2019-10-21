@@ -33,4 +33,4 @@ sqlparse==0.2.4
 toolz==0.9.0
 urllib3==1.22
 web3==3.16.5
-Werkzeug==0.14.1
+Werkzeug==0.15.3
